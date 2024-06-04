@@ -209,6 +209,9 @@
 .Aboutus .container .col-lg-5 .details{
     padding-top: 341px;
 }
+.Aboutus .container .col-lg-5 .details img{
+    width: 640px;
+}
 
 .Aboutus .container .col-lg-5 .details h2{
     text-transform: uppercase;
@@ -311,11 +314,11 @@
 .servicesection .imgbox{
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, .15);
     text-align: center;
-    padding: 5px 5px;
+    padding: 5px 20px;
     margin: 0px 10px;
    
     width: 316px;
-    height: 223px;
+    height: 252px;
     background-color: white;
     color: black;
 }
@@ -482,13 +485,13 @@
 
 }
 .contactsection .maps iframe{
-    transition: width 2s, height 2s, transform 3s;
+    transition: all .2s ease-in-out;
     width: 570px;
     height: 343px;
     
 }
 .contactsection .maps iframe:hover{
-     transform: rotate(360deg);
+    transform: scale(1.1);
 
 }
 .infosection{
@@ -516,6 +519,7 @@
     text-align: center;
 }
 .infosection .infoitem .imgbox{
+    transition: width 2s, height 2s, transform 3s;
     width: 80px;
     height: 80px;
     border-radius: 100%;
@@ -528,6 +532,7 @@
     color: #fff;
 }
 .infosection .infoitem .imgbox:hover{
+    transform: rotate(360deg);
     background-color: #ff8a1d;
     color: white;
 }
